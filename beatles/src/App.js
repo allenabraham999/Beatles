@@ -1,10 +1,12 @@
 import React from "react";
-import ReactDOM from "react-dom";
-
+import {useState} from "react";
+import NavBar from "./components/Navbar/Navbar";
 function App() {
+  const [page,changePage] = useState("home");
   return (
     <div>
-    <h1>Hello World</h1>
+      <NavBar p = {changePage}/>
+      {console.log(page)}
     </div>
   );
 }
