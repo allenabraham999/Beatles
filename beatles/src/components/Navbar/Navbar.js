@@ -1,13 +1,15 @@
+import React from 'react';
+
 function NavBar(props) {
   return (
     <div>
-      <nav>
+      <nav className = "#424242 grey darken-3">
         <div class="nav-wrapper">
           <a
             href="#!"
             class="brand-logo"
             onClick={() => {
-              props.p("Brand");
+              props.p("home");
             }}
           >
             The Beatles
