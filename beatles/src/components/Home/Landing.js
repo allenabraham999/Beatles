@@ -1,7 +1,11 @@
 import React from 'react';
+import "./Landing.css";
 
 function Landing(){
-    return (<h1>Hello I'm Landing</h1>);
+    return (
+        <div className = "AbbeyBackground">
+        </div>
+    );
 }
 
 export default Landing;
