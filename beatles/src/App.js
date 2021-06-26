@@ -2,19 +2,16 @@ import React from "react";
 import { useState } from "react";
 import NavBar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
-import Store from "./components/Store/Store";
-import Albums from "./components/Albums/Albums";
+import Music from "./components/Music/Music";
 import News from "./components/News/News";
-
-function setPage(p){
-  if(p === "store"){
-    return <Store />
-  }else if(p === "album"){
-    return <Albums/>;
-  }else if(p === "news"){
-    return <News/>;
-  }else{
-    return <Home/>
+import Footer from "./components/Footer/Footer";
+function setPage(p) {
+  if (p === "music") {
+    return <Music />;
+  } else if (p === "news") {
+    return <News />;
+  } else {
+    return <Home />;
   }
 }
 
@@ -23,8 +20,9 @@ function App() {
   return (
     <div>
       <NavBar p={changePage} />
-      {console.log("page "+page)}
+      {console.log("page " + page)}
       {setPage(page)}
+      <Footer></Footer>
     </div>
   );
 }

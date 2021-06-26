@@ -32,10 +32,10 @@ function NavBar(props) {
               <a
                 href="#!"
                 onClick={() => {
-                  props.p("album");
+                  props.p("music");
                 }}
               >
-                Album
+                Music
               </a>
             </li>
             <li>
@@ -46,16 +46,6 @@ function NavBar(props) {
                 }}
               >
                 News
-              </a>
-            </li>
-            <li>
-              <a
-                href="#!"
-                onClick={() => {
-                  props.p("store");
-                }}
-              >
-                Store
               </a>
             </li>
           </ul>
