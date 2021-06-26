@@ -1,0 +1,41 @@
+.a-heading{
+    color: rgb(241, 238, 182);
+}
+
+/* The Card */
+.moosic-container{
+    display:flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+}
+.moosic{
+    border-radius:2%;
+    background-color:rgb(129, 66, 21);
+    width:400px;
+    height:500px;
+    margin:50px;
+    padding-top: 30px;
+}
+
+.moosic h1{
+    font-size:1.8rem;
+    font-weight:800; 
+}
+
+.moosic p{
+    font-size:0.8rem;
+    padding:20px;
+    font-weight:300;
+}
+
+.album-art{
+    border-radius:2%;
+    height:200px;
+}
+
+@media only screen and (max-width:800px){
+    .moosic p{
+        font-size: 0.9rem;
+        font-weight: 550;
+    }
+}

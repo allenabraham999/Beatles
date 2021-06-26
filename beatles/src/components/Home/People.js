@@ -18,7 +18,7 @@ function People() {
         <div className="row center-align">
           <div className = "col s12 m6 l5 offset-l1 m1">
             {setCards(cardContent[0])}
-            {console.log(cardContent[0].photo)}
+            {console.log(cardContent[0])}
           </div>
           <div className = "col s12 m6 l5 ">
             {setCards(cardContent[1])}
