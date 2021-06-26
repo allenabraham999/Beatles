@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Home.module.css";
+import "./Home.css";
 import Landing from "./Landing.js";
 import People from "./People.js";
 import About from "./About.js";

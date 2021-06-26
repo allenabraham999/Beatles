@@ -1,20 +1,23 @@
-import React from 'react';
+// href="#!"
 
+import React from "react";
+import logo from "./logo.png";
+import "./Navbar.css";
 function NavBar(props) {
   return (
     <div>
-      <nav className = "#424242 grey darken-3">
+      <nav className="#212121 grey darken-4">
         <div class="nav-wrapper">
           <a
             href="#!"
-            class="brand-logo"
+            className="brand-logo"
             onClick={() => {
               props.p("home");
             }}
           >
-            The Beatles
+            <img className="logoImage" src={logo} alt="Beatles Logo" />
           </a>
-          <ul class="right hide-on-med-and-down">
+          <ul className="right hide-on-med-and-down">
             <li>
               <a
                 href="#!"
