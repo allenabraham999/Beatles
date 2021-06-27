@@ -28,7 +28,7 @@ function People() {
           <div className = "col s12 m6 l5 offset-l1 m1">
             {setCards(cardContent[2])}
           </div>
-          <div className = "col s12 m6 l5">
+          <div className = "col s12 m6 l5 lastone">
             {setCards(cardContent[3])}
           </div>
         </div>
