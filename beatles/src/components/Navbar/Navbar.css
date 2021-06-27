@@ -1,10 +1,16 @@
-.logoImage{
-    height:50px;
-    margin-left:30px;
-    margin-top: 10px;
+.logoImage {
+  height: 50px;
+  margin-left: 30px;
+  margin-top: 10px;
 }
 
+.side-push {
+  color: white;
+  background-color: #212121;
+}
 
-.side-push{
-    background-image: black;
+.sidenav li>a{
+    color: white;
+    padding: 40px;
+    font-size: 1.2rem;
 }

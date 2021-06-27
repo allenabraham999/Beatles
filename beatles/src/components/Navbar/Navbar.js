@@ -84,7 +84,7 @@ function NavBar(props) {
               props.p("news");
             }}
           >
-            Music
+            News
           </a>
         </li>
         {/* <li>
